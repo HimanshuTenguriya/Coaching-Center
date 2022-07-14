@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+
+
+}
+
+.rightnav {
+    /* background-color: pink; */
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+
+.navlist {
+    display: flex;
+    width: 70%;
+    /* background-color: black; */
+    align-items: center;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.navlist li a:hover {
+    font-size: 18px;
+    color: aqua;
+    transition: ease-in;
+}
+
+.logo {
+    margin: 4px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.navbackground {
+    background: rgb(0, 0, 0, 0.7)url('../images/nav\ bar\ bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.background {
+    background: rgb(0, 0, 0, 0.7)url('../images/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    padding-top: 68px;
+    padding-bottom: 149px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 50%;
+    margin-top: 10%;
+    margin: auto;
+    height: 75%;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.secondHalf {
+    width: 30%;
+    margin-top: 90px;
+
+}
+
+.secondHalf img {
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+.text-main {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-big {
+    font-size: 24px;
+}
+
+.text-small {
+    font-size: 15px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 20px 10px;
+    border: 2px solid yellow;
+    border-radius: 39px;
+    font-size: 15px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.5s;
+    font-weight: bold;
+    
+}
+
+.btn:hover {
+    box-shadow: inset 200px 0 0 0 black;
+}
+
+.btn-sm {
+    padding: 4px 13px;
+    vertical-align: middle;
+    margin: 10px 10px;
+    font-size: 12px;
+}
+
+.btn-dark {
+    border: 2px solid black;
+    color: rgb(255, 72, 0);
+    margin-left: 35%;
+}
+
+.section {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Scada', sans-serif;
+    margin-bottom: 20px;
+}
+
+.left {
+    height: 223px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.para {
+    padding: 0px 25px
+}
+
+.sectionTag {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.sectionSubTag {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img {
+    width: 200px;
+    border: 5px solid navajowhite;
+    border-radius: 20px;
+}
+
+.contact {
+    background-color: rgb(244, 242, 239);
+    height: 73vh;
+
+}
+
+.form {
+    max-width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.form input {
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid gray;
+    margin: 14px 0;
+    padding: 5px 3px;
+
+
+}
+
+.form-text {
+    padding-bottom: 14px;
+    font-size: 13px;
+    margin-top: -4px;
+    color: brown;
+}
+
+.form-message {
+    padding-bottom: 14px;
+    font-size: 13px;
+    margin-top: -4px;
+    color: blue;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 14px;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    justify-content: center;
+}
+
+.navcontrol {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 32px;
+    width: 21px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+
+}
+
